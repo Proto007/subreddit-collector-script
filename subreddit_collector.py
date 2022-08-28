@@ -24,7 +24,7 @@ reddit = praw.Reddit(
     client_secret=os.getenv("CLIENT_SECRET"),
     username=os.getenv("REDDIT_USERNAME"),
     password=os.getenv("PASSWORD"),
-    user_agent="sentiment_analysis_v1",
+    user_agent="subreddit_collector_v1",
 )
 
 # Get the specified number of posts for the specified subreddit
